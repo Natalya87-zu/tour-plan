@@ -44,8 +44,6 @@
         width: 16px
         height: 1px
         background-color: $text-color
-  .stars
-    flex-basis: auto
   .hotel
     &-name
       flex-basis: 100%
@@ -62,6 +60,11 @@
       &__offer
         order: -1
         margin-left: 0
+  .stars
+    display: flex
+    flex-basis: auto
+    justify-content: end
+    margin-right: 0
 @media (max-width:576px)
   .logo
     width: 99px
