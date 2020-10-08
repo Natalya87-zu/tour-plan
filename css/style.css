@@ -575,8 +575,8 @@ template {
 }
 
 .stars {
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -634,6 +634,7 @@ template {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 10px;
+  outline: none;
 }
 
 .slider-button--next {
