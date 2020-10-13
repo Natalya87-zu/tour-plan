@@ -1220,9 +1220,10 @@ template {
     width: 92%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 80px;
   }
   .reviews-slider__item {
     padding: 0 30px 30px;
@@ -1281,6 +1282,7 @@ template {
     margin-top: -10px;
   }
   .newsletter {
+    max-width: 520px;
     padding-top: 40px;
     margin-top: -80px;
     height: 319px;
