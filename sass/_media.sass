@@ -18,9 +18,17 @@
     width: 255px
     height: 255px
 @media (max-width: 992px)
-  .container,
-  .newsletter-wrapper
+  .container
     max-width: 700px
+  .newsletter
+    margin-top: -16px
+    &__title
+      margin-top: 5px
+    &-wrapper
+      max-width: 700px
+  .subscribe
+    margin-top: -10px
+    &__input
   .stars
     margin-right: 590px
   .logo
@@ -54,10 +62,26 @@
   .map
     width: 340px
   .reviews
+    padding-top: 17px
+    &__title
+      font-style: normal
+      font-weight: bold
+      font-size: 30px
+      line-height: 38px
+      margin-bottom: 53px
     &-slider
+      &__text
+        width: 455px
+        text-align: justify
+        padding: 0
+        margin: 0
       &__item
         max-width: 580px
+        margin-bottom: 17px
+      &__button
+        margin: 0
   .activities
+    padding: 5px 0 0 0
     &-wrapper
       flex-wrap: wrap
     &__card

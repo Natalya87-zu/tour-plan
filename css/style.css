@@ -1175,9 +1175,20 @@ template {
 }
 
 @media (max-width: 992px) {
-  .container,
+  .container {
+    max-width: 700px;
+  }
+  .newsletter {
+    margin-top: -16px;
+  }
+  .newsletter__title {
+    margin-top: 5px;
+  }
   .newsletter-wrapper {
     max-width: 700px;
+  }
+  .subscribe {
+    margin-top: -10px;
   }
   .stars {
     margin-right: 590px;
@@ -1227,8 +1238,31 @@ template {
   .map {
     width: 340px;
   }
+  .reviews {
+    padding-top: 17px;
+  }
+  .reviews__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 53px;
+  }
+  .reviews-slider__text {
+    width: 455px;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+  }
   .reviews-slider__item {
     max-width: 580px;
+    margin-bottom: 17px;
+  }
+  .reviews-slider__button {
+    margin: 0;
+  }
+  .activities {
+    padding: 5px 0 0 0;
   }
   .activities-wrapper {
     -ms-flex-wrap: wrap;
