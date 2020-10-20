@@ -1,5 +1,5 @@
 .navbar
-  background-color:
+  background-color: $light
   &-top
     display: flex
     align-items: center
@@ -27,6 +27,10 @@
       text-transform: uppercase
       font-size: 14px
       line-height: 18px
+    &__item
+      &--mobile
+        &--visible
+          display: none
 .logo
   width: 177px
 .search
