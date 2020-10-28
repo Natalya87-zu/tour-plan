@@ -60,7 +60,7 @@ $(document).ready(function () {
         },
         email: {
           required: "Enter your email address!",
-          email: "Your email address must be in the format of name@domain.com",
+          email: "Enter correct email address",
         },
         phone: {
           required: "Enter your phone number!",
@@ -68,5 +68,15 @@ $(document).ready(function () {
         },
       },
     });
+  });
+
+  $(".subscribe").validate({
+    errorClass: "novalid",
+    messages: {
+      email: {
+        required: "Enter your email address!",
+        email: "Enter correct email address",
+      },
+    },
   });
 });

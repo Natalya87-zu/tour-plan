@@ -70,6 +70,19 @@ img {
   color: #EC1F46;
   border-bottom: 1px solid #EC1F46;
   margin-top: 17px;
+  font-size: 12px;
+  line-height: 15px;
+  z-index: 2;
+}
+
+.novalid {
+  color: #EC1F46;
+  text-decoration: none;
+  border-bottom: 1px solid #EC1F46;
+  margin-top: 17px;
+  font-size: 12px;
+  line-height: 15px;
+  z-index: 2;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -939,10 +952,12 @@ template {
 
 .subscribe {
   position: relative;
+  margin-bottom: 53px;
   width: 350px;
   height: 55px;
   border-radius: 4px;
-  overflow: hidden;
+  z-index: 5;
+  outline: none;
 }
 
 .subscribe__input {
@@ -956,6 +971,7 @@ template {
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
+  border-radius: 4px;
 }
 
 .subscribe__button {
@@ -977,6 +993,7 @@ template {
   background-color: #EC1F46;
   color: #ffffff;
   cursor: pointer;
+  z-index: 5;
 }
 
 .reviews {
