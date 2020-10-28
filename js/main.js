@@ -55,15 +55,16 @@ $(document).ready(function () {
       errorClass: "invalid",
       messages: {
         name: {
-          required: "Укажите имя!",
-          minlength: "Имя должно быть не короче 2 букв",
+          required: "Enter your name!",
+          minlength: "The name must be at least 2 letters long",
         },
         email: {
-          required: "Укажите вашу электронную почту!",
+          required: "Enter your email address!",
           email: "Your email address must be in the format of name@domain.com",
         },
         phone: {
-          required: "Телефон обязателен!",
+          required: "Enter your phone number!",
+          minlength: "Enter correct phone number",
         },
       },
     });
