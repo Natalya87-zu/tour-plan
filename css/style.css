@@ -56,14 +56,15 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  color: #EC1F46;
 }
 
 .invalid {
@@ -75,13 +76,17 @@ img {
   z-index: 2;
 }
 
-.novalid {
+input.subscribe__input .novalid {
   color: #EC1F46;
-  text-decoration: none;
+}
+
+label.novalid {
+  position: absolute;
   border-bottom: 1px solid #EC1F46;
-  margin-top: 17px;
+  margin-top: 57px;
   font-size: 12px;
   line-height: 15px;
+  color: #EC1F46;
   z-index: 2;
 }
 
@@ -952,7 +957,6 @@ template {
 
 .subscribe {
   position: relative;
-  margin-bottom: 53px;
   width: 350px;
   height: 55px;
   border-radius: 4px;

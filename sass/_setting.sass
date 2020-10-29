@@ -39,9 +39,10 @@ img
   cursor: pointer
 .form
   display: flex
-  align-items: center
+  align-items: start
   justify-content: space-between
   flex-wrap: wrap
+  color: $primary
 .invalid
   color: $primary
   border-bottom: 1px solid $primary
@@ -49,11 +50,14 @@ img
   font-size: 12px
   line-height: 15px
   z-index: 2
-.novalid
-  color: $primary
-  text-decoration: none
+input.subscribe__input
+  .novalid
+    color: $primary
+label.novalid
+  position: absolute
   border-bottom: 1px solid $primary
-  margin-top: 17px
+  margin-top: 57px
   font-size: 12px
   line-height: 15px
+  color: $primary
   z-index: 2
