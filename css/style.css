@@ -66,12 +66,10 @@ img {
       flex-wrap: wrap;
 }
 
-.invalid {
+label.invalid {
   color: #EC1F46;
-  margin-top: 17px;
   font-size: 12px;
   line-height: 15px;
-  z-index: 2;
 }
 
 label.novalid {
@@ -1425,6 +1423,10 @@ template {
   font-size: 12px;
   line-height: 15px;
   color: #E0E0E0;
+}
+
+.invalid {
+  margin: 0;
 }
 
 .modal__overlay {
