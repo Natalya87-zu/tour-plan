@@ -64,25 +64,18 @@ img {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  color: #EC1F46;
 }
 
 .invalid {
   color: #EC1F46;
-  border-bottom: 1px solid #EC1F46;
   margin-top: 17px;
   font-size: 12px;
   line-height: 15px;
   z-index: 2;
 }
 
-input.subscribe__input .novalid {
-  color: #EC1F46;
-}
-
 label.novalid {
   position: absolute;
-  border-bottom: 1px solid #EC1F46;
   margin-top: 57px;
   font-size: 12px;
   line-height: 15px;
